@@ -1,4 +1,8 @@
 body { 
    background-color: rgba(54, 84, 177, 0.5);
-   background-postion: center center;
    }
+h1 {
+   text-align: right;
+   font-family: "Segoe Print";
+}
+   
