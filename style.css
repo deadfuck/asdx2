@@ -1,16 +1,10 @@
-body { 
-   background-color: rgba(9, 20, 173,0.7);
-   background-image: url("https://datablimp.com/images/favicon/android-icon-192x192.png");
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed; 
-   }
-h1 {
-   text-align: center;
-   font-family: "Arial";
-}
-p {
-   text-align: center;
-   font-family: "Times New Roman";
+div {
+   background-color: red;
+   color: white;
+   font-size: 20px;
+   text-align: left;
+   padding: 10px;
+   width: 93%;
+   
 }
    
