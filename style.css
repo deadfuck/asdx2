@@ -1,5 +1,7 @@
 body { 
-   background-color: rgba(54, 84, 177, 0.5);
+   background-color: rgba(0, 51, 204, 0.5);
+   background-image: url("https://goo.gl/images/SKkpW5");
+   background-attachment: fixed; 
    }
 h1 {
    text-align: right;
