@@ -1,12 +1,17 @@
 body {
    margin: 0px;
 }
+
 header {
    background-color: red;
    color: white;
    font-size: 20px;
    text-align: left;
    padding: 10px;  
-  
+}
+
+h1 {
+   font-family: "Courier New";
+   color: white;
 }
    
