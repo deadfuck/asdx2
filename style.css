@@ -9,11 +9,11 @@ header {
    text-align: left;
    padding: 10px;  
 } 
-container { 
+.container { 
    position: relative;
    color: white;
 }
- centered {
+ .centered {
     position: absolute;
     top: 50%;
     left: 50%;
