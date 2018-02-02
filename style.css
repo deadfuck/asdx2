@@ -8,6 +8,10 @@ header {
    font-size: 20px;
    text-align: left;
    padding: 10px;  
+} 
+container { 
+   position: relative;
+   color: white;
 }
 
 h1 {
