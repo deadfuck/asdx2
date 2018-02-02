@@ -1,11 +1,12 @@
 body {
    margin: 0px;
 }
-div {
+header {
    background-color: red;
    color: white;
    font-size: 20px;
    text-align: left;
    padding: 10px;  
+   <img src="https://image.freepik.com/free-photo/desk-with-a-laptop-a-cup-of-coffee-and-a-calendar_1112-145.jpg" style="width:600px;height:300px;">
 }
    
