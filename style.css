@@ -19,6 +19,18 @@ header {
 .centered {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.bg {
+    height: 300px;
+    background-image: url(https://ssl.gstatic.com/atari/images/vision-header.jpg);
+    background-size: cover;
+}
+
+.bg__opaque-layer {
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
 }
