@@ -13,6 +13,7 @@ header {
 .container { 
    position: relative;
    color: white;
+   background-image: url("http://azo.cloud/wp-content/uploads/2017/11/cropped-O7MF5N0.jpg") ;
 }
  .centered {
     position: absolute;
