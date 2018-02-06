@@ -46,11 +46,11 @@ hr {
 /* FLEX BOX 1 */
 div.t {
    border-top-style: solid;
-   border-color:white;
+   border-color: rgb(63, 63, 63);
 }
 div.b {
    border-bottom-style: solid;
-   border-color: white;
+   border-color: rgb(63, 63, 63);
 }
 div.t:hover {
    border-color: red;
