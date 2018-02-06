@@ -41,7 +41,7 @@ hr {
 
 .bg__opaque-layer {
     height: 100%;
-    background-color: rgba(63,63,63,1);
+    background-color: rgba(63,63,63,.1);
 }
 /* FLEX BOX 1 */
 div.t {
