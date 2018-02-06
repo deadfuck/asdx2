@@ -37,7 +37,7 @@ header {
 }
 table {
    color: red;
-   width: 100%;
+   margin: auto;
 }
 td:hover{
 border-color: red;
