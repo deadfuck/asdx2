@@ -35,3 +35,20 @@ header {
     height: 100%;
     background-color: rgba(0,0,0,.5);
 }
+
+td:hover{
+border-color: green;
+color: green;
+}
+td.t {
+border-top-style: solid ;
+}
+td.b {
+border-bottom-style: solid;
+}
+ tr, td { 
+padding: 10px 40px;
+text-align: center;
+font-size: 30px;
+
+}
