@@ -11,12 +11,14 @@ header {
    text-align: left;
    padding: 15px;  
 } 
+/* COVER IMAGE */
 .container {
     position: relative;
     text-align: center;
     color: white;
     font-size: 80px;
-}
+} 
+
 .centered {
     position: absolute;
     top: 50%;
@@ -35,24 +37,35 @@ header {
     height: 100%;
     background-color: rgba(0,0,0,.5);
 }
-table {
-   color: red;
-   margin: auto;
+/* FLEX BOX 1 */
+div.t {
+   border-top-style: solid;
+   border-color:black;
 }
-td:hover{
-border-color: red;
-color: white;
+div.b {
+   border-bottom-style: solid;
+   border-color: black;
 }
-td.t {
-border-top-style: solid ;
+div.t:hover {
+   border-color: red;
+   color: white;
 }
-td.b {
-border-bottom-style: solid;
+div.b:hover {
+   border-color: red;
+   color: white;
 }
- tr, td { 
-padding: 10px 40px;
-text-align: center;
-font-size: 30px;
-border-color: black;
-
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  color: red;
+}
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
 }
