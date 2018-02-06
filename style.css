@@ -44,6 +44,7 @@ hr {
     background-color: rgba(0,0,0,.5);
 }
 /* FLEX BOX 1 */
+}
 div.t {
    border-top-style: solid;
    border-color: white;
@@ -62,16 +63,15 @@ div.b:hover {
 }
 .flex-container {
   display: flex;
-  height: 200px;
-  align-items: flex-end;
-  justify-content: space-around;
+  height: 330px;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   color: red;
+  flex-wrap: wrap;
 }
 .flex-container > div {
-  width: 100px;
-  margin: 10px;
+  width: 30%;
   text-align: center;
-  line-height: 100px;
   font-size: 30px;
 }
