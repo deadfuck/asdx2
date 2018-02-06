@@ -11,6 +11,12 @@ header {
    text-align: left;
    padding: 15px;  
 } 
+hr {
+	border: 0;   
+    background-color:red;
+    height: 2px;
+    width:90%;
+}
 /* COVER IMAGE */
 .container {
     position: relative;
