@@ -46,11 +46,11 @@ hr {
 /* FLEX BOX 1 */
 div.t {
    border-top-style: solid;
-   border-color:black;
+   border-color:white;
 }
 div.b {
    border-bottom-style: solid;
-   border-color: black;
+   border-color: white;
 }
 div.t:hover {
    border-color: red;
