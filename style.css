@@ -35,10 +35,12 @@ header {
     height: 100%;
     background-color: rgba(0,0,0,.5);
 }
-
+div.table {
+   color: red;
+}
 td:hover{
-border-color: green;
-color: green;
+border-color: red;
+color: white;
 }
 td.t {
 border-top-style: solid ;
@@ -50,5 +52,6 @@ border-bottom-style: solid;
 padding: 10px 40px;
 text-align: center;
 font-size: 30px;
+border-color: black;
 
 }
