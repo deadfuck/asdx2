@@ -65,7 +65,7 @@ div.b:hover {
   height: 330px;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
   color: red;
   flex-wrap: wrap;
 }
