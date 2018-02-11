@@ -75,7 +75,7 @@ div.b {
   justify-content: space-between;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   flex-wrap: wrap;
 }
 .flex-container > div {
