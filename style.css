@@ -61,18 +61,12 @@ hr {
 /* FLEX BOX 1 */
 div.t {
    border-top-style: solid;
-   border-color: white;
+   border-color: purple;
+   color: white;
 }
 div.b {
    border-bottom-style: solid;
    border-color: white;
-}
-div.t:hover {
-   border-color: red;
-   color: white;
-}
-div.b:hover {
-   border-color: red;
    color: white;
 }
 .flex-container {
@@ -81,7 +75,6 @@ div.b:hover {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: red;
   flex-wrap: wrap;
 }
 .flex-container > div {
