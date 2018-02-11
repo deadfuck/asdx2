@@ -73,6 +73,7 @@ div.b {
   display: flex;
   height: 330px;
   justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 80%;
   flex-wrap: wrap;
