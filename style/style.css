@@ -1,0 +1,85 @@
+body {
+   margin: 0px;
+   background-color: rgb(63, 63, 63);
+   font-size: 100%;
+}
+
+header {
+   background-color: red;
+   color: white;
+   font-size: 20px;
+   text-align: left;
+   padding: 15px;  
+} 
+.hhh
+{
+background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#D68AB0),color-stop(0.25,#D8CE5D),color-stop(0.5,#6BD85D),color-stop(0.75,#5DB9D8),color-stop(1,#D85DCB));
+background-image:-webkit-linear-gradient(left,#D68AB0 0%,#D8CE5D 25%,#6BD85D 50%,#5DB9D8 75%,#D85DCB 100%);
+background-size:1000% 1000%;
+
+-webkit-text-fill-color:transparent;
+-webkit-animation:Text-Legendary 6s infinite;
+color:#33cccc; 
+font-size: 50px;
+
+}
+@-webkit-keyframes Text-Legendary
+{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}
+}
+hr {
+	border: 0;   
+    background-color:red;
+    height: 3px;
+    width:90%;
+}
+/* COVER IMAGE */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+} 
+
+.centered {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.bg {
+    height: 300px;
+    background-image: url(https://ssl.gstatic.com/atari/images/vision-header.jpg);
+    background-size: cover;
+}
+
+.bg__opaque-layer {
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+/* FLEX BOX 1 */
+div.t {
+   border-top-style: solid;
+   border-color: #5DB9D8;
+   color: white;
+}
+div.b {
+   border-bottom-style: solid;
+   border-color: white;
+   color: white;
+}
+.flex-container {
+  display: flex;
+  height: 330px;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flex-container > div {
+  width: 30%;
+  text-align: center;
+  font-size: 30px;
+}
