@@ -34,7 +34,7 @@ html, body {
 	transition:all 250ms ease-in-out;
 }
 .btn1:hover {
-	box-shadow: 0 10px rgb(255,122,0);
+	box-shadow: 0 8px rgb(255,122,0);
 	transform: translateY(-4px);
 	background-color: rgb(139,69,19);
 }
