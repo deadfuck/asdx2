@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="autocomplete.js"></script>
+	<title>G2onic</title>
+</head>
+<body> 
+	<div class="header">
+		<a href="index.html" class="btn1" target="_self" > Home </a>
+		<a href="Projects.html" class="btn1" target="_self"> Projects </a>
+		<a href="" class="btn1"> About Me </a>
+	</div>
+
+		<div class="main">
+			<aside class="lft">
+	<h1>JavaScript</h1>
+<form>
+		<fieldset>
+			<legend>Shipping Information</legend>
+			<div > 
+				<p> Name: </p>
+				<p> Zip Code: </p>
+			</div>
+			<div >
+			<input type = "text" name = "shipName" id = "shippingName" required><br/>
+			<input type = "text" name = "shipZip" id = "shippingZip" pattern = "[0-9]{5}" required >
+		</div><br/>
+		</fieldset>
+		<input type="checkbox" id="same" name="same" onchange= "billingFunction()" />
+		<label for = "same">Is the Billing Information the Same?</label>
+				
+		<fieldset> 
+			<legend>Billing Information</legend>
+			<div> 
+				<p> Name: </p>
+				<p> Zip Code: </p>
+			</div>
+			<div >
+			<input type = "text" name = "billName" id = "billingName" required=""><br/>
+			<input type = "text" name = "billZip" id = "billingZip" pattern = "[0-9]{5}" required>
+		</div><br/>
+		</fieldset>
+			<input type = "submit" value = "Verify" class="btn3" />
+		</form>
+			</aside>
+		</div>
+</body>
+</html>
