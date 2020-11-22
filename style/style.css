@@ -32,7 +32,7 @@ html, body {
 .header a:active {
 	box-shadow: none;
 	transform: translateY(8px);
-	transition: transform, 0s;
+	transition: transform, 300ms;
 }
 header a:after {
  	display: block;
