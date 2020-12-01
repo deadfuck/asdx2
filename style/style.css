@@ -88,3 +88,24 @@ main {
 	float: right;
 	background-color: chocolate;
 }
+.loader {
+  margin:auto;
+  border: 5px solid black;
+  border-left-color: chocolate;
+  width:50px;
+  height:300px;
+  border-radius:50%;
+  animation: rott 35ms  linear infinite 0s;
+
+}
+@keyframes rott {
+  0%{
+    transform:rotate(0deg)scale(1) ;
+  }
+  50%{
+    transform:rotate(180deg)scale(0.3);
+  }
+  100%{
+    transform:rotate(360deg)scale(1) ;
+  }
+}
